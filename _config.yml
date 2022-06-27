@@ -33,7 +33,7 @@ collections:
   portfolio:
 
 # Use https://realfavicongenerator.net/ to generate your package
-favicon_package: "assets/favicon_package"
+favicon_package: "/assets/favicon_package"
 
 markdown: kramdown
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
