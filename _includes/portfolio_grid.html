@@ -23,11 +23,7 @@
         </a>
         <div class="portfolio-caption">
           <h4>{{ project.caption.title }}</h4>
-          {% if project.caption.link %}
           <a class="text-muted" href="{{ project.caption.link }}">{{ project.caption.subtitle }}</a>
-          {% else %}
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
-          {% endif %}
         </div>
       </div>
       {% endfor %}
