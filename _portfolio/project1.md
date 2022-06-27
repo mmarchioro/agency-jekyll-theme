@@ -7,7 +7,8 @@ alt: Shirts on a hanger
 caption:
   title: Threads
   subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  link: https://exmaple.link.com
+  thumbnail: https://place-hold.it/400x300
 ---
 
 ## Section 1

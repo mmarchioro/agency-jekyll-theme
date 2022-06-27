@@ -22,8 +22,13 @@
           <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
         </a>
         <div class="portfolio-caption">
+          {% if project.caption.link %}
+          <h4><a href="{{ project.caption.link }}">{{ project.caption.title }}</a></h4>
+          <a class="text-muted" href="{{ project.caption.link }}">{{ project.caption.subtitle }}</a>
+          {% else %}
           <h4>{{ project.caption.title }}</h4>
           <p class="text-muted">{{ project.caption.subtitle }}</p>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
